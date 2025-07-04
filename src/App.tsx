@@ -10,7 +10,7 @@ const App = () => {
     '/src/assets/img/pic4.jpg',
     '/src/assets/img/pic5.jpg',
   ];
-  const [bg, setBg] = useState<string>("./src/assets/img/pic1.jpg");
+  const [bg, setBg] = useState<string>("/src/assets/img/pic1.jpg");
   const [prevIndex, setPrevIndex] = useState<number | null>(null);
 
   const randomPictures = () => {
