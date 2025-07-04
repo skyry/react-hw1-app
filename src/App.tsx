@@ -4,13 +4,13 @@ import Button from './components/Button'
 const App = () => {
 
   const images = [
-    '/src/assets/img/pic1.jpg',
-    '/src/assets/img/pic2.jpg',
-    '/src/assets/img/pic3.jpg',
-    '/src/assets/img/pic4.jpg',
-    '/src/assets/img/pic5.jpg',
+    '/img/pic1.jpg',
+    '/img/pic2.jpg',
+    '/img/pic3.jpg',
+    '/img/pic4.jpg',
+    '/img/pic5.jpg',
   ];
-  const [bg, setBg] = useState<string>("/src/assets/img/pic1.jpg");
+  const [bg, setBg] = useState<string>("/img/pic1.jpg");
   const [prevIndex, setPrevIndex] = useState<number | null>(null);
 
   const randomPictures = () => {
